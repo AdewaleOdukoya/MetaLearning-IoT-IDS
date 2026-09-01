@@ -1,0 +1,52 @@
+# ---- Data (never commit datasets) ----
+data/
+data/raw/
+data/processed/
+*.pcap
+*.parquet
+*.npz
+*.npy
+
+# ---- Experiment outputs ----
+experiments/
+reports/figures/*.png
+reports/tables/*.csv
+runs/
+checkpoints/
+
+# ---- Model checkpoints ----
+*.pt
+*.pth
+*.ckpt
+
+# ---- Experiment tracking ----
+wandb/
+mlruns/
+lightning_logs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# ---- Environments ----
+.env
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+*.key
